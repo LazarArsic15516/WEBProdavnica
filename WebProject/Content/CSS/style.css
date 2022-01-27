@@ -1,0 +1,217 @@
+body {
+  background-color: white;
+  margin: 0;
+  height: auto;
+}
+
+
+.glavni {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 90%;
+  border: 1px solid gray;
+  height: auto;
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(57, 169, 197));
+  
+}
+
+.naslov {
+  margin-top: 0px;
+  display: flex;
+  color: white;
+  font-size: 2em;
+  justify-content: center;
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(49, 154, 168));
+}
+
+select {
+  font-size: 25px;
+}
+
+option {
+  font-size: 25px;
+}
+
+label {
+  font-size: 1.5em;
+}
+
+.divZaPrikaz {
+  display: flex;
+  border: 0.3px gray solid;
+  padding-top: 2em;
+}
+
+.divcheck {
+  
+  margin-left: 2em;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 20%;
+  flex-shrink: 0;
+}
+
+.proizvodLista {
+  height: 30%;
+  border: 1px gray solid;
+  margin: 0 2em 2em 2em;
+  max-height: 30%;
+  min-height: 10em;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 200px;
+  flex-grow: 1;
+  flex-shrink: 0;
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(197, 57, 167));
+}
+
+.divselect {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 80%;
+  height: 100%;
+}
+
+.divproizvod {
+  font-style: italic;
+  font-size: 10px;
+  border: 1px solid gray;
+  padding: 0.6em;
+}
+
+.divprod {
+  border: 1px solid gray;
+  color: lightcoral;
+  font-weight: bold;
+  font-size: medium;
+  margin-bottom: 2em;
+  padding: 0.4em;
+  min-width: 20%;
+}
+
+.proizvodSelect {
+  margin-bottom: 0.7em;
+}
+
+.proizvodjacRadio {
+  margin-bottom: 0.7em;
+}
+
+.dodajProizvodDugme {
+    height: 2.4em;
+    margin-top: 3em;
+}
+
+.proizvodTekst{
+    font-size: 1.4em;
+}
+
+.proizvodSlika {
+    border: 0.2px black solid;
+    width: 75%;
+    height: 5em;
+    align-self: center;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modalProizvodjac{
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 60%;
+  height: 30em;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.divproizvodjac {
+  font-style: italic;
+  font-size: 10px;
+  border: 1px solid gray;
+  padding: 0.6em;
+}
+
+.addProduct {
+  display: none;
+}
+
+.updateProduct {
+  display: none;
+}
+.modalManufactor{
+  border: 1PX BLACK solid;
+}
+
+
+.modalShopInfo{
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modalManufactorInfo{
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+
+}
